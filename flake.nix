@@ -19,6 +19,7 @@
     ];
     backendPackages = [
       (python.withPackages (ps: with ps; [
+        typing
         fastapi
         uvicorn
         pydantic
