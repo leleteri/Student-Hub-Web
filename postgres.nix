@@ -6,10 +6,10 @@
     enable = true;
     package = pkgs.postgresql_16;
     
-    ensureDatabases = [ "username" ];
+    ensureDatabases = [ "leleteri" ];
     ensureUsers = [
       {
-        name = "username";
+        name = "leleteri";
         ensureDBOwnership = true;
       }
     ];
